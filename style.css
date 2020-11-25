@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#transf1 {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border: solid 2px black;
+    transform: rotate(-35deg) ;
+}
+
+#transf2 {
+    transform: rotate(90deg);
+    font-size: 1rem;
+    margin-left: 50px;
+}
+
+#transf3 {
+    height: 200px;
+    width: 200px;
+    border: solid 2px black;
+    transform:translate(30px);
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    background-color: brown;
+}
+
+#preuvTransl {
+    height: 200px;
+    width: 200px;
+    border: black 1px dotted;
+    position: absolute;
+    top:300px;
+    left: 300px;
+    z-index: -1;
+    background-color: lightgray;
+}
+
+#transf4 {
+    height: 300px;
+    width: 300px;
+    border: solid 2px red;
+    background: darkgoldenrod;
+    position: absolute;
+    top: 800px;
+    left: 20px;
+
+}
+
+#preuvEchelle {
+    position: absolute;
+    background: darkblue;
+    border: darkgoldenrod 2px solid;
+    transform-origin: center center;
+    transform: scale(1.5);
+    top: 800px;
+    left: 20px;
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+}
+
+#oblique {
+    height: 300px;
+    width: 300px;
+    background: brown;
+    border: black 2px solid;
+    transform: skewX(40deg);skewY(40deg)
+    position: relative;
+    top: 120vh;
+    left: 10vh;
+}
